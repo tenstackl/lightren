@@ -1,47 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LightRen - Grafika</title>
-   
-    <link rel="stylesheet" href="css/style.css">
+    <title>LightRen - Error</title>
     <style>
-        h1
+        body
         {
-
-            background: linear-gradient(to right, blue, red);
-
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-family: sans-serif;
-text-align: center;
-font-size: 5rem;
-padding: 0;
-margin: 0;
-position: absolute;
-left: 80%;
-top: 50%;
-transform: translateX(-50%) translatey(-50%);
-
-}
-a
+            font-family: sans-serif;
+        }
+.errorbot
 {
-    font-family: sans-serif;
-    position: absolute; 
-    top: 70%; 
-    left: 80%;
-  
-}
-body
-{
-    background: linear-gradient(90deg, #12C2E9 0%, #c471ed 50%, #f64f59 100%);
-}
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 
+    transform: translateX(-50%) translateY(-50%);
+}
+.text
+{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+    transform: translateX(-50%) translateY(-50%);
+}
+.p
+{
+    color: #8a8a8a;
+}
+@media screen and (max-width: 989px) {
+    .errorbot
+    {
+display: none;
+    }
+}
+@media screen and (max-width: 989px) {
+    .text
+    {
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+    transform: translateX(-50%) translateY(-50%);
+    }
+}
     </style>
 </head>
 <body>
- <img src="newerrorbot.png"> <h1>Aktualnie niedostępne</h1>
-  <a href="https://lightren.site"><p><h1>Wróć</h1></p></a>
+    <img src="img/errorbotnew.png" width="200" class="errorbot">  <div class="text"><a href="https://lightren.site"><img src="img/logotext.png" width="100"></a> <p>Aktualnie Niedostępne.</p> <div class="p"><p>Podstrona /grafika nie jest aktualnie dostepna.</p></div></div>
 </body>
 </html>
