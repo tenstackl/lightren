@@ -98,13 +98,13 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family:  sans-serif;
-    background-color: #ffffff;
+    
 }
 
 
 .wrapper {
     width: 100%;
-    background-color: rgb(255, 255, 255);
+   
     
 }
 
@@ -142,7 +142,7 @@ body {
     width: 100%;
     font-size: 16px;
     border-radius: 5px;
-    background-color: rgba(255,255,255,.85);
+    
     
 }
 .search {
@@ -200,12 +200,13 @@ li:last-child {
     width: 200px;
     text-align: center;
     position: absolute;
-    background: #ffffff;
+   
     padding: 0;
     list-style-type: none;
     box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.25);
     border-radius: 7px;
     display: none;
+    background-color: #ffffff;
 }
 .dropdown ul li
 {
@@ -228,4 +229,138 @@ margin: 0;
     background: radial-gradient(circle at center center, #583399 0%, #D300FF 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --color-bg: #fff;
+    --color-main: rgb(43, 43, 43);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--color-bg);
+    color: var(--color-main);
+}
+
+
+h1 {
+    font-size: 48px;
+}
+
+
+
+
+.icon {
+    background-color: grey;
+    border-radius: 100%;
+    content: "";
+    display: block;
+    height: 10px;
+    margin: 16px 25px;
+    position: relative;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 10px;
+
+}
+.icon:hover
+{
+    cursor: pointer;
+}
+
+
+
+
+header button
+{
+    width: 0px;
+}
+
+/* LIGHT MODE */
+body.light {
+    --color-bg: #fff;
+    --color-main: #000;
+}
+.light .u ul
+{
+    background: #2a2b2f;
+}
+body.light .icon {
+    background: rgb(213, 203, 6);
+    transform: translateX(0);
+}
+
+body.light .icon::after {
+    content: none;
+}
+.light header button
+{
+    background: #ffffff;
+    border: #ffffff;
+}
+.light a ul header h5
+{
+    color: #ffffff;
+}
+/* DARK MODE */
+
+body.dark {
+    --color-bg: #2a2b2f;
+    --color-main: rgb(255, 255, 255);
+}
+body.dark .icon
+{
+    background: rgb(180, 180, 180);
+}
+.dark .search1 a
+{
+    color: #8ab4e4;
+}
+.dark .opis
+{
+    color: #ffffff;
+}
+.dark header button
+{
+    background: #2a2b2f;
+    border: #2a2b2f;
+}
+.dark .menu a
+{
+    color: rgb(241, 241, 241);
+}
+.u ul
+{
+    display: none;
+    background: #ffffff;
+    width: 100px;
+   margin-left: 50%;
+margin-left: 86%;
+    border-radius: 10px;
+
+}
+.u:hover ul
+{
+    
+    display: inline-block;
+}
+
+
+.dark a ul header h5
+{
+    color: #000000;
 }
