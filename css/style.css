@@ -269,9 +269,9 @@ h1 {
     background-color: grey;
     border-radius: 100%;
     content: "";
-    display: block;
+    
     height: 10px;
-    margin: 16px 25px;
+    
     position: relative;
     transition: background-color 0.3s, transform 0.3s;
     width: 10px;
