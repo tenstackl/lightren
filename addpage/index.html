@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LightRen - AddPage</title>
+<style>
+    input
+{
+  border: 1px solid #d0d0d0;
+  width: 30%;
+  height: 5%;
+}
+input:focus
+{
+  box-shadow: 0 0 16px 1px rgba(205, 205, 205, 0.8);
+}
+    .send
+{
+  
+  background: #4791ff;
+  border: 1px solid #cdcdcd;
+  height: 25px;
+  width: auto;
+ 
+}
+.send:hover
+{
+  background: #c7c7ff;
+  cursor: pointer;
+  border: 1px solid #969696;
+}
+form
+{
+    background-color: rgb(239, 239, 239);
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+}
+body
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.menu
+    {
+        background: #f3f3f3;
+        top: 0;
+    left: 0;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+    .menu a 
+    {
+        margin: 0 2rem;
+    text-decoration: none;
+    padding: 1rem .5rem;
+    color: black;
+    font-family: arial black, sans-serif;
+    }
+    a:hover
+{
+    color: rgb(54, 131, 255)
+}
+</style>
+
+</head>
+<body>
+    <nav class="menu">
+        <img src="img/logotext.png" width="70"> <a href="https://lightren.site">Szukaj</a> <a href="">Dodaj Stronę</a>
+        </a>
+        </a>
+     </nav>
+    <center>
+    <form action="https://formsubmit.co/mateuszlipowski16@outlook.com" method="POST">
+        <p><h2>Dodaj Stronę</h2></p>
+        <hr>
+       <p>Adres URL</p>
+       <p><input type="text" name="text" placeholder="https://domain.com" required></p>
+        <button type="submit" class="send">Dodaj</button>
+        
+    </form>
+    </center>
+</body>
+</html>
