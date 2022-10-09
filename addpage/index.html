@@ -8,36 +8,44 @@
 <style>
     input
 {
-  border: 1px solid #d0d0d0;
+  border: 0;
   width: 30%;
-  height: 5%;
+  border-radius: 15px;
+    border: 0;
+    background: rgb(236, 236, 236);
+    height: 35px;
+    font-size: 15px;
+    width: 30%;
+    font-weight: bolder;
 }
 input:focus
 {
   box-shadow: 0 0 16px 1px rgba(205, 205, 205, 0.8);
 }
-    .send
-{
-  
-  background: #4791ff;
-  border: 1px solid #cdcdcd;
-  height: 25px;
-  width: auto;
- 
+
+.send{
+ background: linear-gradient(to right,#196BCA ,#6433E0);
+ background-color: #196BCA;
+ color: #fff;
+ font-family: sans-serif;
+ font-size: 15px;
+
+
+ text-decoration: none;
+ padding: 10px 15px;
+ border: 0px solid #000;
+ border-radius: 10px;
+ display: inline-block;
 }
-.send:hover
-{
-  background: #c7c7ff;
-  cursor: pointer;
-  border: 1px solid #969696;
+.send:hover{
+ background: linear-gradient(to right,#5482d0 ,#7d5ee3);
+ background-color: #5482d0;
 }
-form
-{
-    background-color: rgb(239, 239, 239);
-   width: 50%;
-    text-align: center;
-    border-radius: 10px;
+.send:active{
+ transform: scale(0.95);
 }
+
+
 body
 {
     font-family: sans-serif;
@@ -67,7 +75,14 @@ body
 {
     color: rgb(54, 131, 255)
 }
-
+form
+{
+    margin-left: 5%;
+}
+.info
+{
+    margin-bottom: 3%;
+}
 </style>
 
 </head>
@@ -77,17 +92,18 @@ body
         </a>
         </a>
      </nav>
-    <center>
-    <form action="https://formsubmit.co/mateuszlipowski16@outlook.com" method="POST">
-        <p><h2>Dodaj Stronę</h2></p>
-        <p><h3>Uwaga: Weryfikacja strony może potrwać 2 tygodnie. Proszę czekać długe wczytywanie!</h3></p>
-        <hr>
+  
+    <form action="https://formsubmit.co/service@lightren.site" method="POST">
+        <div class="info">
+        <p><h1>Dodaj Stronę</h1></p>
+       <p>Weryfikacja strony może potrwać 2 tygodnie.</p>
+       </div>
        <p>Adres URL</p>
-       <p><input type="text" name="URL" placeholder="https://domain.com" required></p>
+       <p><input type="url" name="URL" placeholder="https://domain.com" required></p>
         <button type="submit" class="send">Dodaj</button>
        
         
     </form>
-    </center>
+    
 </body>
 </html>

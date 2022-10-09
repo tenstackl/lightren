@@ -52,10 +52,15 @@ color: black;
 width: 150px;
 border-radius: 10px;
 text-align: center;
+
 }
 .https img:hover + ul
 {
+   
     display: block;
+  
+    
+
 }
 li
 {
@@ -357,11 +362,15 @@ h1 {
 }
 
 
-
+header a
+{
+    color: black;
+}
 
 header button
 {
-    width: 0px;
+    background: #ffffff00;
+    border: 0;
 }
 
 /* LIGHT MODE */
@@ -381,11 +390,7 @@ body.light .icon {
 body.light .icon::after {
     content: none;
 }
-.light header button
-{
-    background: #ffffff;
-    border: #ffffff;
-}
+
 .light a ul header h5
 {
     color: #ffffff;
@@ -416,11 +421,7 @@ body.dark .icon
 {
     color: #ffffff;
 }
-.dark header button
-{
-    background: #2a2b2f;
-    border: #2a2b2f;
-}
+
 .dark .menu a
 {
     color: rgb(241, 241, 241);
