@@ -59,8 +59,13 @@ font-size: 17px;
 font-weight: bold;
 
 }
+.https img
+{
+    cursor: help;
+}
 .https img:hover + ul
 {
+  
     display: block;
 }
 
@@ -450,21 +455,10 @@ body.dark .icon
 }
 .u:hover ul
 {
-    
     display: inline-block;
+    
 }
 
-
-
-
-
-
-
-
-
-
-
-  
   
   .cookie-container {
     position: fixed;
