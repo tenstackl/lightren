@@ -49,7 +49,7 @@
 font-size: 15px;
 background: rgb(255, 255, 255);
 color: black;
-width: 240px;
+width: 280px;
 height: 10px;
 border-radius: 7px;
 text-align: center;
@@ -130,7 +130,7 @@ body
 
 .search1 a
 {
-    
+    color: #1c0fae;
     text-decoration: none;
 }
 .menu a
@@ -146,8 +146,20 @@ body
 .search1 a:hover
 {
 text-decoration: underline;
-}
 
+}
+.search1 a:focus
+{
+    cursor: progress;
+}
+.search1 a:visited
+{
+    color: #8921a5;
+}
+.dark .search1 a:visited
+{
+    color: #c385fa;
+}
 * {
     box-sizing: border-box;
     margin: 0;
