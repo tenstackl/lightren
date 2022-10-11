@@ -66,18 +66,13 @@ li
 {
     display: none;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1206px) {
     .logo
     {
 display: none;
     }
 }
-    @media screen and (max-width: 500px) {
-        .search
-        {
-            border: 1px solid #000000;
-        }
-}
+ 
 
 .ad
 {
@@ -206,7 +201,7 @@ body {
 {
     
     position: absolute;
-    top: 5%;
+    top: 25%;
     
 }
 
@@ -225,10 +220,7 @@ body {
     
 }
 .search {
-	border: 1px solid rgb(72, 72, 72);
 
-	-webkit-box-shadow: 0 0 16px 1px rgba(99, 99, 99, 0.8);
-	box-shadow: 0 0 16px 1px rgba(88, 88, 88, 0.8);
 
 
     
@@ -237,16 +229,11 @@ body {
     width: 40%;
     font-size: 16px;
     border-radius: 20px;
-    background-color: rgba(255,255,255,.85);
-    border: 1px solid rgba(255,255,255,.85);
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(186, 186, 186, 0.85);
+    outline: none;
 }
-.search:hover
-{
 
-
-	-webkit-box-shadow: 0 0 16px 3px rgba(99, 99, 99, 0.8);
-	box-shadow: 0 0 16px 3px rgba(88, 88, 88, 0.8); 
-}
 .drink-list {
     padding: 20px 40px;
 }
@@ -434,6 +421,18 @@ body.dark .icon
   text-align: center;
   border-radius: 10px;
 
+}
+.dark .search
+{
+    padding: 10px 20px;
+    margin-left: 20%;
+    width: 40%;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: rgba(66, 66, 66, 0.85);
+  border: 0;
+  color: white;
+  outline: none;
 }
 .u:hover ul
 {
