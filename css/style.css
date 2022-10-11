@@ -47,22 +47,23 @@
 {
     display: none;
 font-size: 15px;
-background: rgb(235, 235, 235);
+background: rgb(255, 255, 255);
 color: black;
-width: 150px;
-height: 40px;
-border-radius: 10px;
+width: 240px;
+height: 44px;
+border-radius: 7px;
 text-align: center;
+
+box-shadow: 0 8px 12px rgb(0 0 0 / 24%), 0 0 12px rgb(0 0 0 / 12%);
+font-size: 18px;
+font-weight: bold;
 
 }
 .https img:hover + ul
 {
-   
     display: block;
-  
-    
-
 }
+
 li
 {
     display: none;
