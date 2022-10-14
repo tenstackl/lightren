@@ -201,6 +201,13 @@ body {
     background-position: center;
     z-index: 0;
 }
+.u .fa-cog
+{
+  
+    font-size: 25px;
+    color: #269DFF;
+   
+}
 .u
 {
     position: absolute;
@@ -208,14 +215,14 @@ body {
    left: 10%;
   
 }
-.u img:hover
+.u .fa-cog:hover
 {
     position: absolute;
     top: 1%;
 }
 .u a:hover
 {
-    color: #6539f8;
+    color: #269DFF;
 }
 .logo img
 {
@@ -369,6 +376,10 @@ header button
     border: 0;
 }
 
+.icon i
+{
+    font-size: 20px;
+}
 /* LIGHT MODE */
 body.light {
     --color-bg: #fff;
@@ -493,3 +504,8 @@ body.dark .icon
   {
     margin-left: 2%;
   }
+
+.menu i
+{
+    color: #269DFF;
+}
