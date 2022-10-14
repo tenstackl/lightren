@@ -204,7 +204,7 @@ body {
 .u
 {
     position: absolute;
-    top: 40%;
+    top: 35%;
    left: 10%;
   
 }
@@ -351,18 +351,7 @@ h1 {
 
 
 
-.icon {
-    background-color: grey;
-    border-radius: 100%;
-    content: "";
-    
-    height: 10px;
-    
-    position: relative;
-    transition: background-color 0.3s, transform 0.3s;
-    width: 10px;
 
-}
 .icon:hover
 {
     cursor: pointer;
@@ -389,8 +378,8 @@ body.light {
 {
     background: #2a2b2f;
 }
-body.light .icon {
-    background: rgb(213, 203, 6);
+body.light .icon i {
+    color: rgb(213, 203, 6);
     transform: translateX(0);
 }
 
@@ -418,7 +407,7 @@ body.dark {
 }
 body.dark .icon
 {
-    background: rgb(180, 180, 180);
+    color: rgb(180, 180, 180);
 }
 .dark .search1 a
 {
