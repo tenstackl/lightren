@@ -205,7 +205,7 @@ body {
 {
   
     font-size: 25px;
-    color: #269DFF;
+    color: rgb(88, 88, 88);
    
 }
 .u
@@ -507,5 +507,13 @@ body.dark .icon
 
 .menu i
 {
-    color: #269DFF;
+    color: rgb(88, 88, 88);
+}
+.dark .menu i
+{
+    color: rgb(255, 255, 255); 
+}
+.dark .u .fa-cog
+{
+    color: #ffffff;
 }
