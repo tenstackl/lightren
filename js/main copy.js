@@ -11,9 +11,8 @@ const searchEngine = e => {
             el.style.display = "block";
           
         } else {
-          el.style.display = "none";   
+            el.style.display = "none";
         }
-       
     })
 }
 
