@@ -245,16 +245,16 @@ body {
 .search {
 
 
-
-    
-    padding: 10px 20px;
+align-items: center;
+    display: flex;
+   padding: 0px 20px;
     margin-left: 20%;
     width: 40%;
     font-size: 16px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.85);
     border: 1px solid rgba(186, 186, 186, 0.85);
-    outline: none;
+  
 }
 
 .drink-list {
@@ -446,17 +446,15 @@ left: 0;
 }
 .dark .search
 {
-    padding: 10px 20px;
-    margin-left: 20%;
-    width: 40%;
-    font-size: 16px;
-    border-radius: 20px;
+ color: white;
     background-color: rgba(66, 66, 66, 0.85);
-  border: 0;
-  color: white;
-  outline: none;
+border: 0;
 
 
+}
+.dark .searchinput
+{
+    color: white;
 }
 .u:hover ul
 {
@@ -520,4 +518,19 @@ left: 0;
 .dark .u .fa-cog
 {
     color: #ffffff;
+}
+.searchinput
+{
+    background: 0;
+    border: 0;
+    padding: 10px 0px;
+    height: 100%;
+    width: 95%;
+    outline: none;
+    font-size: 14px;
+}
+.search i
+{
+  width: 5% ;
+  text-align: right;
 }
