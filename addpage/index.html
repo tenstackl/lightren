@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LightRen - AddPage</title>
+<style>
+    input
+{
+  border: 0;
+  width: 30%;
+  border-radius: 15px;
+    border: 0;
+    background: rgb(236, 236, 236);
+    height: 35px;
+    font-size: 15px;
+    width: 30%;
+    font-weight: bolder;
+}
+input:focus
+{
+  box-shadow: 0 0 16px 1px rgba(205, 205, 205, 0.8);
+}
+
+.send{
+ background: linear-gradient(to right,#196BCA ,#6433E0);
+ background-color: #196BCA;
+ color: #fff;
+ font-family: sans-serif;
+ font-size: 15px;
+
+
+ text-decoration: none;
+ padding: 10px 15px;
+ border: 0px solid #000;
+ border-radius: 10px;
+ display: inline-block;
+}
+.send:hover{
+ background: linear-gradient(to right,#5482d0 ,#7d5ee3);
+ background-color: #5482d0;
+}
+.send:active{
+ transform: scale(0.95);
+}
+
+
+body
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.menu
+    {
+        background: #f3f3f3;
+        top: 0;
+    left: 0;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+    .menu a 
+    {
+        margin: 0 2rem;
+    text-decoration: none;
+    padding: 1rem .5rem;
+    color: black;
+    font-family: arial black, sans-serif;
+    
+    }
+    a:hover
+{
+    color: rgb(54, 131, 255)
+}
+form
+{
+    margin-left: 5%;
+}
+.info
+{
+    margin-bottom: 3%;
+}
+</style>
+
+</head>
+<body>
+    <nav class="menu">
+        <img src="img/logotext.png" width="200"> <a href="https://lightren.site">Szukaj</a> <a href="">Dodaj Stronę</a>
+        </a>
+        </a>
+     </nav>
+  
+    <form action="https://formsubmit.co/service@lightren.site" method="POST">
+        <div class="info">
+        <p><h1>Dodaj Stronę</h1></p>
+       <p>Weryfikacja strony może potrwać 2 tygodnie.</p>
+       </div>
+       <p>Adres URL</p>
+       <p><input type="url" name="URL" placeholder="https://domain.com" required></p>
+        <button type="submit" class="send">Dodaj</button>
+       
+        
+    </form>
+    
+</body>
+</html>
