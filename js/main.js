@@ -12,4 +12,5 @@ function SearchBtn(){
     window.location = 'szukaj.html#gsc.tab=0&gsc.q=' + elem.value;
 
 }
+
 elem.addEventListener("keyup", Search); 

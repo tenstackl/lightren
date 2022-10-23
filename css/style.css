@@ -100,6 +100,7 @@ display: none;
 
 hr
 {
+
   border: 0.1px solid rgb(227, 226, 226);
 }
 .poddomeny
@@ -537,10 +538,13 @@ border: 0;
 .search i
 {
 
+  width: 5%;
+
   text-align: right;
   color: #269DFF;
 font-size: 16px;
 }
+
 .gbtn
 {
     background: 0;
@@ -598,3 +602,4 @@ display: none !important;
 {
  display: none !important;
 }
+
