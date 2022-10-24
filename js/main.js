@@ -1,16 +1,20 @@
+const input = document.querySelector('.search');
+const drinks = document.querySelectorAll('li');
 
-const elem = document.getElementById('searchinput')
+const searchEngine = e => {
+    const text = e.target.value.toLowerCase();
 
-function Search(event) {
-    if (event.keyCode === 13) {
-      event.preventDefault();
-        window.location = 'szukaj.html#gsc.tab=0&gsc.q=' + elem.value;
-    }
-  }
-function SearchBtn(){
-    if(!elem.value) return;
-    window.location = 'szukaj.html#gsc.tab=0&gsc.q=' + elem.value;
 
+
+    drinks.forEach(el => {
+        if (el.textContent.toLowerCase().indexOf(text) !== -1) {
+            el.style.display = "block";
+          
+        } else {
+            el.style.display = "none";
+        }
+    })
 }
 
-elem.addEventListener("keyup", Search); 
+
+input.addEventListener('keyup', searchEngine)
