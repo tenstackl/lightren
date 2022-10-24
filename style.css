@@ -648,7 +648,8 @@ input::-webkit-search-decoration
 @media screen and (max-width: 451px){
     .search
     {
-      width: 50%;
+      width: 80%;
+     margin-left: 10%;
   
     }
   }
