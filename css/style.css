@@ -100,7 +100,8 @@ display: none;
 
 hr
 {
-    border: 0.1px solid rgb(227, 226, 226);
+
+  border: 0.1px solid rgb(227, 226, 226);
 }
 .poddomeny
 {
@@ -246,9 +247,10 @@ body {
 
 
 align-items: center;
+
     display: flex;
    padding: 0px 20px;
-    margin-left: 20%;
+    margin-left: 25%;
     width: 40%;
     font-size: 16px;
     border-radius: 30px;
@@ -460,7 +462,6 @@ border: 0;
 {
     color: white;
 }
-
 .u:hover ul
 {
     display: inline-block;
@@ -536,19 +537,80 @@ border: 0;
 }
 .search i
 {
+
   width: 5%;
+
   text-align: right;
   color: #269DFF;
+font-size: 16px;
+}
+
+.gbtn
+{
+    background: 0;
+    border: 0;
+    height: 100%;
+    width: 5%;
+
+}
+body *
+{
+    font-family: 'Poppins';
+}
+.gs-title *
+{
+font-size: 18px !important;
+
+}
+input
+{
+    font-family: sans-serif;
+}
+.gs-title:hover *
+{
+    text-decoration: underline !important;
+}
+.s
+{
+ margin-top: 5%;
+color: #ffffff00;
+}
+.gcsc-find-more-on-google *
+{
+    display: none !important;
+}
+.gs-image *
+{
+    border-radius: 10px !important;
+}
+.gsc-inline-block *
+{
+    border: 0 !important;
+    background: #efefef !important;
+    font-weight: 600 !important;
+  
+ 
+ 
+}
+
+.gsc-tabsArea *
+{
+display: none !important;
+
+}
+.gsc-positioningWrapper *
+{
+ display: none !important;
 }
 
 .open
 {
-    cursor: pointer;
     text-decoration: none;
     border-bottom: 2px solid #269DFF;
+    cursor: pointer;
 }
-
 .menu a:hover
 {
     text-decoration: none;
 }
+
