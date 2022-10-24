@@ -582,11 +582,13 @@ color: #ffffff00;
 .gs-image *
 {
     border-radius: 10px !important;
+
 }
 .gs-image:hover *
 {
     box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.312) !important;
 }
+
 .gsc-inline-block *
 {
     border: 0 !important;
@@ -612,6 +614,11 @@ display: none !important;
     text-decoration: none;
     border-bottom: 2px solid #269DFF;
     cursor: pointer;
+    color: #269DFF !important;
+}
+.open i
+{
+    color: #269DFF;
 }
 .menu a:hover
 {
