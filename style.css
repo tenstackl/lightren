@@ -645,3 +645,10 @@ input::-webkit-search-decoration
     outline: 0;
     -webkit-appearance: none;	
 }
+@media screen and (max-width: 451px){
+    .search
+    {
+      width: 50%;
+  
+    }
+  }
