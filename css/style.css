@@ -604,3 +604,14 @@ display: none !important;
  display: none !important;
 }
 
+.open
+{
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 2px solid #269DFF;
+}
+
+.menu a:hover
+{
+    text-decoration: none;
+}
