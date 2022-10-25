@@ -12,5 +12,10 @@ function SearchBtn(){
     window.location = 'szukaj.html#gsc.tab=0&gsc.q=' + elem.value;
 
 }
-
+function SearchBtnmapy(){
+    window.location = 'https://www.google.com/maps/search/' + elem.value;
+}
+function SearchBtngrafika(){
+    window.location = './szukaj=grafika.html#gsc.tab=1&gsc.q=' + elem.value;
+}
 elem.addEventListener("keyup", Search); 
