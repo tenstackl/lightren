@@ -590,15 +590,12 @@ color: #ffffff00;
 }
 
 .gsc-inline-block *
+}
 {
     border: 0 !important;
-    background: #efefef !important;
-    font-weight: 600 !important;
-  
- 
- 
+    background: #f0f0f0 !important;
+    border-radius: 2px;
 }
-
 .gsc-tabsArea *
 {
 display: none !important;
@@ -684,4 +681,12 @@ border: 1px solid rgba(119, 119, 119, 0.867) !important;
 }
 .gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited b, .gs-imageResult a.gs-title:visited, .gs-imageResult a.gs-title:visited b {
     color: #8921A5 !important;
+}
+.gs-no-results-result .gs-snippet, .gs-error-result .gs-snippet {
+
+font-size: 50px !important;
+font-weight: bold !important;
+text-align: center !important;
+background: 0 !important;
+border: 0 !important;
 }
