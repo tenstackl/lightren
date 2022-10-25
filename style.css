@@ -589,8 +589,12 @@ color: #ffffff00;
     box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.312) !important;
 }
 
-.gsc-inline-block *
+.gsc-selected-option-container
+{
+  border: 0 !important;
+  background: #f0f0f0 !important;
 }
+.gsc-option-menu
 {
     border: 0 !important;
     background: #f0f0f0 !important;
