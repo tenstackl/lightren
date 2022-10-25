@@ -572,7 +572,7 @@ input
 }
 .s
 {
- margin-top: 5%;
+ margin-top: 1%;
 color: #ffffff00;
 }
 .gcsc-find-more-on-google *
@@ -653,3 +653,28 @@ input::-webkit-search-decoration
   
     }
   }
+  
+  .gsc-results .gsc-cursor-box .gsc-cursor-current-page{
+    background: #e4e4e4 !important;
+    color: black !important;
+ padding: 2px 7px !important;
+border-radius: 3px !important;
+}
+.gsc-cursor-page
+{
+    background: #e4e4e4 !important;
+    color: rgb(97, 97, 97) !important;
+ padding: 2px 7px !important;
+ border-radius: 3px !important; 
+}
+.gsc-cursor-page:hover
+{
+text-decoration: none !important;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page:hover{
+   text-decoration: none !important;
+}
+.gcse
+{
+    padding-left: 1% !important;
+}
