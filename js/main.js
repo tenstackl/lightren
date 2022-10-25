@@ -5,6 +5,7 @@ function Search(event) {
     if (event.keyCode === 13) {
       event.preventDefault();
         window.location = 'szukaj.html#gsc.tab=0&gsc.q=' + elem.value;
+
     }
   }
 function SearchBtn(){
