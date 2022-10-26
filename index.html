@@ -202,9 +202,10 @@ background: #cfcfcf;
 .search i
 {
 
-  text-align: right;
-  color: #269DFF;
+text-align: left;
+  color: #afafaf;
 font-size: 16px;
+
 }
 .gbtn
 {
@@ -225,8 +226,7 @@ color: #858585;
   display: flex;
   justify-content: center;
   align-items: center;
-margin-top: -2px;
-margin-right: 1%;
+
 }
 .clear i
 {
@@ -278,8 +278,8 @@ input::-webkit-search-decoration
 
            
            <div class="search">
-            <input onfocus="this.placeholder = ''"
-            onblur="this.placeholder = 'Wyszukaj w LightRen'" type="search" class="searchinput" id="searchinput" placeholder="Wyszukaj w LightRen" autocomplete="off" role="combobox" spellcheck="false" aria-live="polite"> <button onclick="SearchBtn()" class="gbtn"><i class="fas fa-search"></i></button>
+            <div onclick="SearchBtn()" class="gbtn"><i class="fas fa-search"></i></div> <input onfocus="this.placeholder = ''"
+            onblur="this.placeholder = 'Wyszukaj w LightRen'" type="search" class="searchinput" id="searchinput" placeholder="Wyszukaj w LightRen" autocomplete="off" role="combobox" spellcheck="false" aria-live="polite">
             </div>
         
 
