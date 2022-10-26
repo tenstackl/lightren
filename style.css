@@ -581,9 +581,24 @@ input
  margin-top: 1%;
 color: #ffffff00;
 }
-.gcsc-find-more-on-google *
+.gcsc-find-more-on-google
 {
-    display: none !important;
+    background: #e4e4e4 !important;
+    color: black !important;
+ padding: 2px 7px !important;
+border-radius: 3px !important;
+border: 1px solid #e4e4e4 !important;
+
+}
+.gcsc-find-more-on-google:hover
+{
+    cursor: pointer;
+    text-decoration: none !important;
+    border: 1px solid rgba(119, 119, 119, 0.867) !important;
+}
+.gcsc-find-more-on-google-magnifier
+{
+    fill: #000000 !important;
 }
 .gs-image *
 {
