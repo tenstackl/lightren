@@ -255,12 +255,12 @@ align-items: center;
     font-size: 16px;
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.85);
-    box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.179);
+    border: 1px solid #e0e0e0;
   
 }
 .search:hover
 {
-    box-shadow: 0 3px 5px 2px rgba(64, 60, 67, 0.179);
+    box-shadow: 0 2px 5px 0px rgba(64, 60, 67, 0.179);
 }
 
 .drink-list {
@@ -541,16 +541,22 @@ border: 0;
     width: 5%;
   text-align: right;
 
+
   color: #269DFF;
 font-size: 16px;
+
 }
 
 .gbtn
 {
+    border-left: 1px solid #c4c2c2;
     background: 0;
-    border: 0;
+    border-bottom: 0;
+    border-top: 0;
+ border-right: 0;
     height: 100%;
-    width: 5%;
+    width: 4%;
+
 
 }
 body *
@@ -645,7 +651,7 @@ input::-webkit-search-decoration
     background-position: center;
     outline: 0;
     -webkit-appearance: none;	
-   
+padding-left: 10px;
 }
 @media screen and (max-width: 451px){
     .search
