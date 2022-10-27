@@ -71,6 +71,7 @@ let suggestions = [
 "ingmar",
 "ingrid",
 "humphrey",
+"maciej lipowski",
 "marlon",
 "richard",
 "james",
@@ -1758,6 +1759,7 @@ let suggestions = [
 "tv",
 "hei",
 "ujed",
+
 "ultimatum",
 "under",
 "unerreichbare",
