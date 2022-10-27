@@ -40,9 +40,10 @@
 
            <div class="logo"> <img src="img/logotext.png" width="200"></div>
            <div class="search">
-           <input onfocus="this.placeholder = ''"
-           onblur="this.placeholder = 'Wyszukaj w Internecie'" type="search" class="searchinput" id="searchinput" placeholder="Wyszukaj w Internecie" autocomplete="off" autofocus> <button onclick="SearchBtn()" class="gbtn"><i class="fas fa-search"></i></button>
-           </div>
+            <div onclick="SearchBtn()" class="gbtn"><i class="fas fa-search"></i></div> <input onfocus="this.placeholder = ''"
+            onblur="this.placeholder = 'Wyszukaj w Internecie'" type="search" class="searchinput" id="searchinput" placeholder="Wyszukaj w Internecie" autocomplete="off" role="combobox" spellcheck="false" aria-live="polite">
+           
+            </div>
           
                 
                 
