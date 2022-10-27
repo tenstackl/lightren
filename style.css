@@ -219,14 +219,14 @@ body {
 
 .u a:hover
 {
-    color: #269DFF;
+    color: #32326B;
 }
 .logo img
 {
     
-    position: absolute;
-    top: 25%;
+  position: absolute;
     
+    top: 27%;
 }
 
 .keywords
@@ -542,7 +542,7 @@ border: 0;
   text-align: right;
 
 
-  color: #269DFF;
+  color: #32326B;
 font-size: 16px;
 
 
@@ -635,13 +635,13 @@ display: none !important;
 .open
 {
     text-decoration: none;
-    border-bottom: 2px solid #269DFF;
+    border-bottom: 2px solid #32326B;
     cursor: pointer;
-    color: #269DFF !important;
+    color: #32326B !important;
 }
 .open i
 {
-    color: #269DFF;
+    color: #32326B;
 }
 .menu a:hover
 {
