@@ -275,7 +275,14 @@ input::-webkit-search-decoration
 
 
 
+.search.active
+{
+  position: absolute;
+         top: 70%;
+         left: 50%;
+        transform: translateX(-50%) translateY(-50%);
 
+}
 
 .search .autocom-box{
   padding: 0;
@@ -329,7 +336,7 @@ input::-webkit-search-decoration
 
            <div class="logo"> <img src="img/logotext.png" width="450"></div>
 
-           
+           <div class="searchbar">
            <div class="search">
             <div onclick="SearchBtn()" class="gbtn"><i class="fas fa-search"></i></div> <input onfocus="this.placeholder = ''"
             onblur="this.placeholder = 'Wyszukaj w Internecie'" type="search" class="searchinput" id="searchinput" placeholder="Wyszukaj w Internecie" autocomplete="off" role="combobox" spellcheck="false" aria-live="polite">
@@ -337,7 +344,7 @@ input::-webkit-search-decoration
               <!-- here list are inserted from javascript -->
             </div>
             </div>
-          
+          </div>
         <button class="golightren"  onclick="SearchBtn()">Szukaj</button>
 
 
