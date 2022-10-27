@@ -48,14 +48,17 @@
         transform: translateX(-50%) translateY(-50%);
 
         align-items: center;
-    display: flex;
+
    padding: 0px 20px;
    
     width: 40%;
     font-size: 16px;
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgb(255, 255, 255);
     border: 1px solid #e0e0e0;
+    padding-left: 40px;
+    z-index: 1;
+   
   
 }
 
@@ -215,9 +218,11 @@ font-size: 16px;
     border: 0;
     height: 100%;
     width: 5%;
-
+    position: absolute;
+top: 72%;
+    left: 5%;
+    transform: translateX(-50%) translateY(-50%)
 }
-
 
 
 .clear
@@ -265,6 +270,46 @@ input::-webkit-search-decoration
   }
 }
 
+
+
+
+
+
+
+.search .autocom-box{
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.search.active .autocom-box{
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.autocom-box li{
+  list-style: none;
+  padding: 8px 12px;
+  display: none;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+}
+
+.search.active .autocom-box li{
+  display: block;
+}
+
+.autocom-box li:hover{
+  background: #f2f2f2;
+}
+
+
+
+
     </style>
 </head>
 <body>
@@ -282,7 +327,11 @@ input::-webkit-search-decoration
            <div class="search">
             <div onclick="SearchBtn()" class="gbtn"><i class="fas fa-search"></i></div> <input onfocus="this.placeholder = ''"
             onblur="this.placeholder = 'Wyszukaj w Internecie'" type="search" class="searchinput" id="searchinput" placeholder="Wyszukaj w Internecie" autocomplete="off" role="combobox" spellcheck="false" aria-live="polite">
+            <div class="autocom-box">
+              <!-- here list are inserted from javascript -->
             </div>
+            </div>
+          
         <button class="golightren"  onclick="SearchBtn()">Szukaj</button>
 
 
@@ -304,7 +353,7 @@ input::-webkit-search-decoration
     <script src="js/main.js"></script>
     <script src="app.js"></script>
     <script src="main.js"></script>
-   
+    <script src="js/sugestions.js"></script>
    
 
 </body>
