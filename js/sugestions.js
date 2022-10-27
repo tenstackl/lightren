@@ -6050,7 +6050,6 @@ let suggestions = [
 "slow",
 "quagga",
 "smilodon",
-"springbok",
 "steller's",
 "small-toothed",
 "strepsirrhini",
