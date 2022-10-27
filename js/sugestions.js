@@ -55,11 +55,12 @@ function showSuggestions(list){
 }
 
 let suggestions = [
-    "chess",
+"lightren",
+"nependi",
+"chess",
 "youtube",
 "duckduckgo",
 "bing",
-"yessle",
 "wikipedia",
 "lonely",
 "imdb",
@@ -4759,6 +4760,7 @@ let suggestions = [
 "midwood",
 "roosevelt",
 "support",
+"yessle",
 "opinion",
 "tumblr",
 "amnh",
