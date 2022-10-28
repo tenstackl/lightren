@@ -705,12 +705,10 @@ border: 1px solid rgba(119, 119, 119, 0.867) !important;
     color: #8921A5 !important;
 }
 .gs-no-results-result .gs-snippet, .gs-error-result .gs-snippet {
-
-font-size: 50px !important;
-font-weight: bold !important;
-text-align: center !important;
-background: 0 !important;
-border: 0 !important;
+  background: 0 !important;
+  border: 0 !important;
+  font-size: medium;
+  font-weight: normal;
 }
 
 
