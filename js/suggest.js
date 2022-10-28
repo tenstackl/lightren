@@ -4572,6 +4572,8 @@ let suggestions = [
 "lizards",
 "lonesome",
 "mummies",
+"webcrawler",
+"w3catalog",
 "mythic",
 "nature's",
 "opulent",

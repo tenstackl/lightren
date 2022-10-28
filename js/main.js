@@ -19,4 +19,8 @@ function SearchBtnmapy(){
 function SearchBtngrafika(){
     window.location = './szukaj=grafika.html#gsc.tab=1&gsc.q=' + elem.value;
 }
+function SearchBtngrafikahome(){
+  if(!elem.value) return;
+  window.location = './szukaj=grafika.html#gsc.tab=1&gsc.q=' + elem.value;
+}
 elem.addEventListener("keyup", Search); 
