@@ -278,18 +278,26 @@ input::-webkit-search-decoration
 .search.active
 {
   position: absolute;
-         top: 70%;
+         top: 69%;
          left: 50%;
         transform: translateX(-50%) translateY(-50%);
 
 }
-
+@media screen and (max-height: 872px){
+  .search.active
+  {
+    position: absolute;
+         top: 72.5%;
+         left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+  }
+}
 .search .autocom-box{
   padding: 0;
   opacity: 0;
   pointer-events: none;
   max-height: 280px;
-  overflow-y: auto;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 
@@ -305,11 +313,12 @@ input::-webkit-search-decoration
  }
 .autocom-box li{
   list-style: none;
-  padding: 5px 0px;
+  padding: 4px 0px;
   display: none;
   width: 100%;
   cursor: default;
   border-radius: 3px;
+  color: #858585;
 }
 
 .search.active .autocom-box li{
