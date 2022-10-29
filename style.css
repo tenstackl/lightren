@@ -631,13 +631,13 @@ display: none !important;
 .open
 {
     text-decoration: none;
-    border-bottom: 2px solid #32326B;
+    border-bottom: 2px solid #000000;
     cursor: pointer;
-    color: #32326B !important;
+    color: #000000 !important;
 }
 .open i
 {
-    color: #32326B;
+    color: #000000;
 }
 .menu a:hover
 {
@@ -792,4 +792,15 @@ border: 1px solid rgba(119, 119, 119, 0.867) !important;
   {
     height: 40px;
   }
-  
+ 
+  .menulink:active i
+  {
+    color: #314cff;
+    
+  }
+
+  .menulink:active
+  {
+    color: #314cff;
+    
+  }
