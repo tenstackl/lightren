@@ -753,7 +753,7 @@ border: 1px solid rgba(119, 119, 119, 0.867) !important;
     padding: 0;
     opacity: 0;
     pointer-events: none;
-    max-height: 200px;
+    max-height: 99.2px;
     overflow-y: hidden;
     overflow-x: hidden;
   }
@@ -762,7 +762,7 @@ border: 1px solid rgba(119, 119, 119, 0.867) !important;
   
   .search.active .autocom-box{
     padding: 10px 0px;
-    min-height: 200px;
+    min-height: 99.2px;
     opacity: 1;
     pointer-events: auto;
   }
@@ -803,4 +803,12 @@ border: 1px solid rgba(119, 119, 119, 0.867) !important;
   {
     color: #314cff;
     
+  }
+  .gsc-above-wrapper-area
+  {
+ border-bottom: 0 !important;
+  }
+  .gsc-adBlock
+  {
+    border-bottom: 0 !important;
   }
