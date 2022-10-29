@@ -247,16 +247,15 @@ body {
 
 
 align-items: center;
-
-    display: flex;
+position: absolute;
    padding: 0px 20px;
+padding-left: 40px;
     margin-left: 25%;
     width: 40%;
     font-size: 16px;
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgb(255, 255, 255);
     border: 1px solid #e0e0e0;
-  
 }
 .search:hover
 {
@@ -547,7 +546,9 @@ border: 0;
 
 .gbtn
 {
-   
+   position: absolute;
+   top: 20%;
+left: 2.5%;
     background: 0;
  border: 0;
     height: 100%;
@@ -664,6 +665,7 @@ input::-webkit-search-decoration
     -webkit-appearance: none;	
 padding-left: 10px;
 }
+
 @media screen and (max-width: 451px){
     .search
     {
@@ -725,3 +727,69 @@ border: 1px solid rgba(119, 119, 119, 0.867) !important;
 {
   border: 0 !important;
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 451px){
+    .search
+    {
+      width: 50%;
+  
+    }
+  }
+  
+  
+  
+  
+  
+
+  
+  .search .autocom-box{
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 200px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+  
+  
+  .search.active .autocom-box{
+    padding: 10px 0px;
+    min-height: 200px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .search.active .gbtn
+   {
+   display: none;
+   }
+  .autocom-box li{
+    list-style: none;
+    padding: 4px 2px;
+    display: none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+    color: #595959;
+  }
+  
+  .search.active .autocom-box li{
+  display: block;
+  }
+  
+  .autocom-box li:hover{
+    background: #f2f2f2;
+  }
+  
+  .all
+  {
+    height: 40px;
+  }
+  
