@@ -35,7 +35,7 @@ inputBox.onkeyup = (e)=>{
 function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
-    
+
     searchWrapper.classList.remove("active");
 }
 
@@ -14004,6 +14004,7 @@ let suggestions = [
 "google advanced",
 "nest audio",
 "google ads",
+"google programmable search engine",
 "business management",
 "google store",
 "movies amp",
@@ -28269,6 +28270,7 @@ let suggestions = [
 "smart shopping campaigns",
 "solutions - google",
 "custom surveys for",
+"custom search",
 "website tag management",
 "google - youtube",
 "contact us google",
