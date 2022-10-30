@@ -73,17 +73,37 @@
     </div>
    
     <div class="smenu"><img src="img/logotext.png" width="150" class="flogo"> <a href="privacy">Privacy</a> </div>
-    <div class="cookie-container">
-        <p>
-            Używamy plików cookie w tej witrynie, aby zapewnić najlepszą jakość korzystania z naszej
-            witryny. Aby dowiedzieć się więcej, przeczytaj naszą
-          <a href="privacy/">politykę prywatności</a>.
-        </p>
   
-        <button class="cookie-btn">
-          Rozumiem
-        </button>
+    <div class="cookie">
+      <img src="#" alt="">
+      <div class="content">
+        <img src="img/logotext.png">
+        <header>Zgoda na pliki cookie</header>
+        <p>Ta strona korzysta z plików cookie, aby zapewnić najlepszą jakość korzystania z naszej witryny.</p>
+        <div class="buttons">
+         <div class="ok"> <button class="item">Rozumiem</button></div>
+        <a href="privacy" class="item">Więcej</a>
+        </div>
       </div>
+    </div>
+  
+    <script>
+      const cookieBox = document.querySelector(".cookie"),
+      acceptBtn = cookieBox.querySelector(".ok");
+  
+      acceptBtn.onclick = ()=>{
+        //setting cookie for 1 month, after one month it'll be expired automatically
+        document.cookie = "Cookie=True; max-age="+60*60*24*30;
+        if(document.cookie){ //if cookie is set
+          cookieBox.classList.add("hide"); //hide cookie box
+        }else{ //if cookie not set then alert an error
+          alert("Nie można ustawić pliku cookie!  Odblokuj tę witrynę w ustawieniach plików cookie swojej przeglądarki.");
+        }
+      }
+      let checkCookie = document.cookie.indexOf("Cookie=True"); //checking our cookie
+      //if cookie is set then hide the cookie box else show it
+      checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+    </script>
       <script src="js/suggest.js"></script>
     <script src="js/maingrafika.js"></script>
     <script src="app.js"></script>
