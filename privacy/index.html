@@ -19,24 +19,49 @@
         
         top: 0;
     left: 0;
-    padding: 0 3rem;
+    padding: 0 2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     border-bottom: 0.1px solid rgb(206, 205, 205);
+
+    }
+    footer
+    {
+    padding: 1.5rem 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 0.1px solid rgb(206, 205, 205);
+width: 90%;
+margin-left: 4.5%;
+
+    }
+    footer a
+    {
+        cursor: pointer;
+        margin: 0 2rem;
+    text-decoration: none;
+    padding: 1rem .5rem;
+    color: rgb(79, 79, 79);
+
+    font-family: 'Poppins', sans-serif;
+
     }
     .menu a 
     {
         margin: 0 2rem;
     text-decoration: none;
     padding: 1rem .5rem;
-    color: black;
+    color: rgb(79, 79, 79);
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+    border-bottom: 2px solid #ffffff00;
+  font-size: 15px;
+
     }
 a:hover
 {
-   color: #269DFF;
+   color: black;
 
 }
 a
@@ -47,12 +72,16 @@ a
 hr
 {
     border: 0.1px solid black;
+} 
+.open
+{
+    border-bottom: 2px solid #6176ff !important;
 }
     </style>
 </head>
 <body>
     <nav class="menu">
-        <img src="logotext.png" width="200"> <a href="https://lightren.site">Główna</a> <a href="#">Prywatność</a>
+        <img src="logotext.png" width="125"> <a href="https://lightren.site">Strona Główna</a> <a href="#" class="open">Prywatność</a>
      </nav>
     <div class="container-fluid container-fluid-wrapper fill">
         <div class="politykaPrywatnosci">
@@ -159,5 +188,15 @@ hr
         </div>
         
             </div>
+
+
+
+
+
+            <footer>
+
+
+                <img src="logotext.png" width="150">  <a href="/">Strona Główna</a> <a>Prywatność</a>
+            </footer>
 </body>
 </html>
