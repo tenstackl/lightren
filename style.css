@@ -249,7 +249,7 @@ padding-left: 40px;
     width: 40%;
     font-size: 16px;
     border-radius: 30px;
-    background-color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255) !important;
     box-shadow: 0 2px 5px 1px rgb(64 60 67 / 17%);
 }
 
@@ -573,21 +573,21 @@ color: #ffffff00;
 .gcsc-find-more-on-google
 {
     background: #f0f0f0 !important;
-    color: black !important;
- padding: 2px 7px !important;
+      color: rgb(115, 51, 255)  !important;
+ padding: 3px 7px !important;
 border-radius: 3px !important;
-border: 1px solid #f0f0f0 !important;
+
 
 }
 .gcsc-find-more-on-google:hover
 {
     cursor: pointer;
     text-decoration: none !important;
-    border: 1px solid rgba(119, 119, 119, 0.867) !important;
+   
 }
 .gcsc-find-more-on-google-magnifier
 {
-    fill: #000000 !important;
+    fill: rgb(115, 51, 255) !important;
 }
 .gs-image *
 {
@@ -668,29 +668,22 @@ padding-left: 10px;
   }
   
   .gsc-results .gsc-cursor-box .gsc-cursor-current-page{
-    background: #f0f0f0 !important;
-    color: black !important;
+    color: rgb(115, 51, 255) !important;
+ background: 0 !important;
  padding: 2px 7px !important;
-border-radius: 3px !important;
-border: 1px solid #f0f0f0 !important;
 }
 .gsc-cursor-page
 {
-    border: 1px solid #f0f0f0 !important;
-    background: #f0f0f0 !important;
-    color: rgb(97, 97, 97) !important;
- padding: 2px 7px !important;
- border-radius: 3px !important; 
-
+  color: rgb(115, 51, 255) !important;
+background: 0 !important;
+padding: 2px 7px !important;
 }
 .gsc-cursor-page:hover
 {
 text-decoration: none !important;
-border: 1px solid rgba(119, 119, 119, 0.867) !important;
 }
 .gsc-results .gsc-cursor-box .gsc-cursor-current-page:hover{
    text-decoration: none !important;
-   border: 1px solid rgba(119, 119, 119, 0.867) !important;
 }
 .gcse
 {
@@ -888,4 +881,12 @@ border: 1px solid rgba(119, 119, 119, 0.867) !important;
   }
   .buttons .item{
     margin: 0 10px;
+  }
+
+
+  .gsc-cursor-box *
+  {
+    background: #f0f0f0 !important;
+padding: 3px 7px !important;
+border-radius: 3px;
   }
