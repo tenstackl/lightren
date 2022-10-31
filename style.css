@@ -756,7 +756,7 @@ color: #2267dd !important;
   }
   .search.active .gbtn
    {
-   display: none;
+  top: 7%;
    }
   .autocom-box li{
     list-style: none;
