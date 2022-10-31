@@ -623,13 +623,13 @@ display: none !important;
 .open
 {
     text-decoration: none;
-    border-bottom: 2px solid #1a73e9;
+    border-bottom: 2px solid #4285f5;
     cursor: pointer;
-    color: #1a73e9 !important;
+    color: #4285f5 !important;
 }
 .open i
 {
-    color: #1a73e9;
+    color: #4285f5;
 }
 .menu a:hover
 {
