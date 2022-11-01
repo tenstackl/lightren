@@ -217,7 +217,8 @@ body {
     
   position: absolute;
     
-    top: 28%;
+    top: 35%;
+    left: 2%;
 }
 
 .keywords
@@ -234,6 +235,10 @@ body {
     
     
 }
+.menu
+{
+  padding-left: 14.5%;
+}
 .search {
 
 
@@ -241,12 +246,13 @@ align-items: center;
 position: absolute;
    padding: 0px 20px;
 padding-left: 40px;
-    margin-left: 25%;
+    margin-left: 12.5%;
     width: 40%;
     font-size: 16px;
     border-radius: 30px;
     background: rgb(255, 255, 255) !important;
     box-shadow: 0 2px 5px 1px rgb(64 60 67 / 17%);
+
 }
 
 
@@ -578,6 +584,7 @@ border-radius: 3px !important;
 
 }
 
+
 .gcsc-find-more-on-google:hover
 {
     cursor: pointer;
@@ -702,7 +709,7 @@ color: #2267dd !important;
 }
 .gcse
 {
-    padding-left: 1% !important;
+    padding-left: 14.5% !important;
 }
 .gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited b, .gs-imageResult a.gs-title:visited, .gs-imageResult a.gs-title:visited b {
     color: #8921A5 !important;
@@ -907,3 +914,7 @@ border-radius: 3px;
   }
 
  
+b
+{
+  font-weight: normal !important; 
+}
