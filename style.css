@@ -580,14 +580,20 @@ border-radius: 3px !important;
 {
     fill: #4285f5 !important;
 }
-.gs-image *
+.gs-image-box
 {
-    border-radius: 10px !important;
+  
+  background: #efefef !important;
+  padding: 10px 10px;
+  border-radius: 10px;
 
 }
-.gs-image:hover *
+
+
+.gs-image:hover
 {
     box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.312) !important;
+
 }
 
 .gsc-selected-option-container
