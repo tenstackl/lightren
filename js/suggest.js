@@ -17,7 +17,7 @@ inputBox.onkeyup = (e)=>{
             return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase()); 
         });
         emptyArray = emptyArray.map((data)=>{
-            return data = '<li>'+ data +'</li>';
+            return data = '<li>'+ data + '</li>';
         });
         searchWrapper.classList.add("active");
         showSuggestions(emptyArray);
