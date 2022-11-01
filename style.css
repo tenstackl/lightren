@@ -244,7 +244,7 @@ body {
 
 align-items: center;
 position: absolute;
-   padding: 0px 20px;
+   padding: 2px 20px;
 padding-left: 40px;
     margin-left: 12.5%;
     width: 40%;
@@ -521,7 +521,7 @@ border: 0;
     height: 100%;
     width: 95%;
     outline: none;
-    font-size: 15px;
+    font-size: 16px;
 }
 .search i
 {
@@ -536,7 +536,7 @@ border: 0;
 .gbtn
 {
    position: absolute;
-   top: 22%;
+   top: 23%;
 left: 2.5%;
     background: 0;
  border: 0;
