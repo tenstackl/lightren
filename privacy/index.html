@@ -115,24 +115,31 @@ hr
     line-height: 1.1;
     font-weight: 600 !important;
 }
-ul li
+.check li
 {
     list-style: none !important;
-    background: url(check.svg) no-repeat left;
-    padding-left: 25px;
-    background-size: 20px;
+    background: url(svg/check.svg) no-repeat left;
+    padding-left: 25px !important;
+    background-size: 20px !important;
 
 }
-.link *
+.link li *
 {
     color: #06e;
     text-decoration: none;
-    background: url(link.svg) no-repeat right;
-    
-    padding-right: 18px;
-    background-size: 14px;
+    background: url(svg/link.svg) no-repeat right !important;
+    padding-right: 18px !important;
+    background-size: 14px !important;
 }
-
+.link
+{
+    list-style: none !important;
+}
+.politykaPrywatnosci
+{
+    width: 85%;
+    padding-left: 7.5%;
+}
 
     </style>
 </head>
@@ -141,7 +148,9 @@ ul li
         <img src="logotext.png" width="125"> <a href="https://lightren.site">Strona Główna</a> <a href="/jaktodziała">Jak to działa</a> <a href="#" class="open">Polityki</a>
      </nav>
     <div class="container-fluid container-fluid-wrapper fill">
+       
         <div class="politykaPrywatnosci">
+        
         <h1>Polityka Prywatności <i class="fa-solid fa-hand"></i></h1>
         <hr>
         <h2>Polityka prywatności opisuje zasady przetwarzania przez nas informacji na Twój temat, w tym danych osobowych oraz ciasteczek, czyli tzw. cookies.</h2>
@@ -156,7 +165,7 @@ ul li
         
         <li>Operator jest Administratorem Twoich danych osobowych w odniesieniu do danych podanych dobrowolnie w Serwisie.</li>
         <li>Serwis wykorzystuje dane osobowe w następujących celach:</li>
-        <ul><li>Obsługa zapytań przez formularz</li>
+        <ul class="check"><li>Obsługa zapytań przez formularz</li>
         </ul>
         <li>Serwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniu w następujący sposób:
         <ol>
@@ -173,10 +182,10 @@ ul li
         <li>Serwis jest hostowany (technicznie utrzymywany) na serwerach operatora: github.com</li>
         </ol>
         <h2 class="pb-12"><strong>4. Twoje prawa i dodatkowe informacje o sposobie wykorzystania danych</strong></h2>
-        <ol><li>W niektórych sytuacjach Administrator ma prawo przekazywać Twoje dane osobowe innym odbiorcom, jeśli będzie to niezbędne do wykonania zawartej z Tobą umowy lub do zrealizowania obowiązków ciążących na Administratorze. Dotyczy to takich grup odbiorców:<ul><li>osoby upoważnione przez nas, pracownicy i współpracownicy, którzy muszą mieć dostęp do danych osobowych w celu wykonywania swoich obowiązków,</li><li>firma hostingowa,</li><li>firmy obsługująca mailingi,</li><li>firmy obsługująca komunikaty SMS,</li><li>firmy, z którymi Administrator współpracuje w zakresie marketingu własnego,</li><li>kurierzy,</li><li>ubezpieczyciele,</li><li>kancelarie prawne i windykatorzy,</li><li>banki,</li><li>operatorzy płatności,</li><li>organy publiczne.</li></ul></li>
+        <ol><li>W niektórych sytuacjach Administrator ma prawo przekazywać Twoje dane osobowe innym odbiorcom, jeśli będzie to niezbędne do wykonania zawartej z Tobą umowy lub do zrealizowania obowiązków ciążących na Administratorze. Dotyczy to takich grup odbiorców:<ul class="check"><li>osoby upoważnione przez nas, pracownicy i współpracownicy, którzy muszą mieć dostęp do danych osobowych w celu wykonywania swoich obowiązków,</li><li>firma hostingowa,</li><li>firmy obsługująca mailingi,</li><li>firmy obsługująca komunikaty SMS,</li><li>firmy, z którymi Administrator współpracuje w zakresie marketingu własnego,</li><li>kurierzy,</li><li>ubezpieczyciele,</li><li>kancelarie prawne i windykatorzy,</li><li>banki,</li><li>operatorzy płatności,</li><li>organy publiczne.</li></ul></li>
         <li>Twoje dane osobowe przetwarzane przez Administratora nie dłużej, niż jest to konieczne do wykonania związanych z nimi czynności określonych osobnymi przepisami (np. o prowadzeniu rachunkowości). W odniesieniu do danych marketingowych dane nie będą przetwarzane dłużej niż przez 3 lata.</li>
         <li>Przysługuje Ci prawo żądania od Administratora:
-        <ul>
+        <ul class="check">
         <li>dostępu do danych osobowych Ciebie dotyczących,</li>
         <li>ich sprostowania,</li>
         <li>usunięcia,</li>
