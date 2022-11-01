@@ -592,14 +592,22 @@ border-radius: 3px !important;
 
 .gsc-selected-option-container
 {
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 17%) !important;
   border: 0 !important;
-  background: #f0f0f0 !important;
+  background: #f4f4f4 !important;
+  border-radius: 3px !important;
+  font-weight: 600 !important;
 }
 .gsc-option-menu
 {
     border: 0 !important;
-    background: #f0f0f0 !important;
-    border-radius: 2px;
+    background: #f4f4f4 !important;
+    border-radius: 3px !important;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 17%) !important;
+}
+.gsc-option-menu-item-highlighted
+{
+  background: #e8e8e8 !important;
 }
 .gsc-tabsArea *
 {
