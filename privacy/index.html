@@ -72,9 +72,15 @@ footer a:hover
 }
 a
 {
-    color: #06e;
-    text-decoration: none;
+  
+   color: #06e;
+   text-decoration: none;
 }
+a:hover
+{
+    text-decoration: underline;
+}
+
 
 hr
 {
@@ -109,6 +115,24 @@ hr
     line-height: 1.1;
     font-weight: 600 !important;
 }
+ul li
+{
+    list-style: none !important;
+    background: url(check.svg) no-repeat left;
+    padding-left: 25px;
+    background-size: 20px;
+
+}
+.link *
+{
+    color: #06e;
+    text-decoration: none;
+    background: url(link.svg) no-repeat right;
+    
+    padding-right: 18px;
+    background-size: 14px;
+}
+
 
     </style>
 </head>
@@ -198,7 +222,7 @@ hr
         <ol>
         <li>Jeśli użytkownik nie chce otrzymywać plików cookies, może zmienić ustawienia przeglądarki. Zastrzegamy, że wyłączenie obsługi plików cookies niezbędnych dla procesów uwierzytelniania, bezpieczeństwa, utrzymania preferencji użytkownika może utrudnić,&nbsp;a w skrajnych przypadkach może uniemożliwić korzystanie ze stron www</li>
         <li>W celu zarządzania ustawienia cookies wybierz z listy poniżej przeglądarkę internetową, której używasz i postępuj zgodnie z instrukcjami:
-        <ul>
+        <ul class="link">
         <li><a href="https://support.microsoft.com/pl-pl/help/10607/microsoft-edge-view-delete-browser-history">Edge</a></li>
         <li><a href="https://support.microsoft.com/pl-pl/help/278835/how-to-delete-cookie-files-in-internet-explorer">Internet Explorer</a></li>
         <li><a href="http://support.google.com/chrome/bin/answer.py?hl=pl&amp;answer=95647">Chrome</a></li>
@@ -207,7 +231,7 @@ hr
         <li><a href="http://help.opera.com/Windows/12.10/pl/cookies.html">Opera</a></li>
         </ul>
         <p>Urządzenia mobilne:</p>
-        <ul>
+        <ul class="link">
         <li><a href="http://support.google.com/chrome/bin/answer.py?hl=pl&amp;answer=95647">Android</a></li>
         <li><a href="http://support.apple.com/kb/HT1677?viewlocale=pl_PL">Safari (iOS)</a></li>
         <li><a href="http://www.windowsphone.com/pl-pl/how-to/wp7/web/changing-privacy-and-other-browser-settings">Windows Phone</a></li>
