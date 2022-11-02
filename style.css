@@ -4,6 +4,10 @@
    margin-left: 5rem;
  margin-top: -0.4%;
 }
+.gsc-results
+{
+  width: 55% !important;
+}
 .smenu {
  
     
@@ -551,9 +555,10 @@ body *
 }
 .gs-title *
 {
-font-size: 20px !important;
+font-size: 19px !important;
 
 }
+
 .gs-imagePreview
 {
   background-color: #fff;
@@ -917,4 +922,14 @@ border-radius: 3px;
 b
 {
   font-weight: normal !important; 
+}
+@media screen and (max-width: 650px){
+  .gcse
+  {
+    padding-left: 0% !important;
+  }
+.gsc-results
+{
+  width: 100% !important;
+}
 }
