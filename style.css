@@ -10,7 +10,7 @@
 }
 .smenu {
  
-    
+   
     padding: 1rem 0px;
     display: flex;
     flex-direction: row;
@@ -934,3 +934,6 @@ b
   width: 100% !important;
 }
 }
+
+
+
