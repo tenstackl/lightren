@@ -1035,7 +1035,7 @@ b
 #wifi-loader .text {
   position: absolute;
   bottom: -40px;
-  display: flex;
+
   justify-content: center;
   align-items: center;
   text-transform: lowercase;
@@ -1166,3 +1166,19 @@ position: relative;
 z-index: 100 !important;
 background: white;
  }
+.notice
+{
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  top: 37%;
+ 
+
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+
+}
