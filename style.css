@@ -1165,6 +1165,11 @@ top: 26%;
 position: relative;
 z-index: 100 !important;
 background: white;
+
+ }
+ .gs-no-results-result
+ {
+  height: 100px !important;
  }
 .notice
 {
