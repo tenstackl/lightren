@@ -1150,12 +1150,12 @@ top: 30%;
 margin-top: 30%;
     }
 }
-@media screen and (max-height: 900px){
+@media screen and (min-height: 844px){
   .smenu {
 margin-top: 40%;
    }
 }
-@media screen and (max-height: 900px){
+@media screen and (min-height: 844px){
   #wifi-loader {
 top: 26%;
   }
