@@ -1169,7 +1169,12 @@ background: white;
  }
  .gs-no-results-result
  {
-  height: 100px !important;
+  height: 120px !important;
+background: url(img/errorbotnew.png) top left no-repeat;
+background-size: 120px;
+display: flex;
+align-items: center;
+padding-left: 110px;
  }
 .notice
 {
