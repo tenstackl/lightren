@@ -258,7 +258,7 @@ padding-left: 40px;
     border-radius: 30px;
     background: rgb(255, 255, 255) !important;
     box-shadow: 0 2px 5px 1px rgb(64 60 67 / 17%);
-    z-index: 4;
+    
 
 }
 
@@ -769,7 +769,7 @@ color: #2267dd !important;
     padding: 0;
     opacity: 0;
     pointer-events: none;
-    max-height: 99.2px;
+    max-height: 40px;
     overflow-y: hidden;
     overflow-x: hidden;
   }
@@ -778,13 +778,13 @@ color: #2267dd !important;
   
   .search.active .autocom-box{
     padding: 10px 0px;
-    min-height: 99.2px;
+    min-height: 40px;
     opacity: 1;
     pointer-events: auto;
   }
   .search.active .gbtn
    {
-  top: 7%;
+  top: 11%;
    }
    .autocom-box li{
     list-style: none;
