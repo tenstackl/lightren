@@ -552,10 +552,7 @@ left: 2.5%;
 
 
 }
-body *
-{
-    font-family: 'Poppins';
-}
+
 .gs-title *
 {
 font-size: 19px !important;
@@ -650,8 +647,8 @@ display: none !important;
 
 .open
 {
-    text-decoration: none;
-    border-bottom: 2px solid #4285f5;
+    text-decoration: none; 
+    border-bottom: 2px solid #4285f5 !important;
     cursor: pointer;
     color: #4285f5 !important;
 }
