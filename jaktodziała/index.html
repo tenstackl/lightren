@@ -4,20 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lightren - Jak To Działa?</title>
+    <title>LightRen - Error</title>
     <style>
-
-a
+        body
+        {
+            font-family: sans-serif;
+        }
+.errorbot
 {
-    color: black;
-    text-decoration: none;
-}
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 
+    transform: translateX(-50%) translateY(-50%);
+}
+.text
+{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+    transform: translateX(-50%) translateY(-50%);
+}
+.p
+{
+    color: #8a8a8a;
+}
+@media screen and (max-width: 989px) {
+    .errorbot
+    {
+display: none;
+    }
+}
+@media screen and (max-width: 989px) {
+    .text
+    {
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+    transform: translateX(-50%) translateY(-50%);
+    }
+}
     </style>
 </head>
 <body>
-    <code>Ta strona została wyłączona |  <a href="/">Wróć na Strone Główną</a></code>
-
- 
+    <img src="/img/errorbotnew.png" width="200" class="errorbot">  <div class="text"><a href="/"><img src="/img/logotext.png" width="200"></a> <p>Ta strona została wyłączona</p> <div class="p"><p>Ta strona została wyłączona, w najbliższym czasie wszystkie strony Lightren zostaną wyłączone.</p></div></div>
 </body>
 </html>
