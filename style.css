@@ -257,7 +257,7 @@ padding-left: 40px;
     font-size: 16px;
     border-radius: 30px;
     background: rgb(255, 255, 255) !important;
-    border: 1px solid #e1e1e1;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
     
 
 }
@@ -524,7 +524,7 @@ border: 0;
 {
     background: 0;
     border: 0;
-    padding: 12px 0px;
+    padding: 11px 0px;
     height: 100%;
     width: 95%;
     outline: none;
@@ -767,6 +767,7 @@ color: #2267dd !important;
     opacity: 0;
     pointer-events: none;
     max-height: 40px;
+
     overflow-y: hidden;
     overflow-x: hidden;
   }
@@ -1205,9 +1206,62 @@ padding-top: 0.1% !important;
 {
 
   white-space: nowrap !important;
-  font-family: 'Poppins' !important;
+  font-family: "Poppins", sans-serif !important;
   font-size: 14px !important;
   padding-top: 0px !important;
   padding-bottom: 0 !important;
   padding-right: 8px !important;
 }
+
+.loader {
+  --clr: #3498db;
+  /* color of spining  */
+  width: 50px;
+  height: 50px;
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+ }
+ 
+ .loader:before, .loader:after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 10px solid transparent;
+  border-top-color: var(--clr);
+ }
+ 
+ .loader:before {
+z-index: 2;
+  animation: spin 1s infinite;
+ }
+ 
+ .loader:after {
+  border: 10px solid #ccc;
+ }
+ 
+ @keyframes spin {
+  0% {
+   -webkit-transform: rotate(0deg);
+   -ms-transform: rotate(0deg);
+   -o-transform: rotate(0deg);
+   transform: rotate(0deg);
+  }
+ 
+  100% {
+   -webkit-transform: rotate(360deg);
+   -ms-transform: rotate(360deg);
+   -o-transform: rotate(360deg);
+   transform: rotate(360deg);
+  }
+ }
+ .load
+ {
+  height: 50vh;
+ }
