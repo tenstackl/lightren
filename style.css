@@ -1221,10 +1221,13 @@ padding-top: 0.1% !important;
   --blue: #0057e7;
   --green: #0057e7;
   --yellow: #0057e7;
-  position: relative;
+ 
   width: 60px;
-  margin-top: 30vh;
-  margin-bottom: 40vh;
+  position: absolute;
+  left: 25%;
+top: 25%;
+transform: translateX(-50%) translateY(-50%);
+  
 }
 
 .spinner:before {
@@ -1292,4 +1295,11 @@ padding-top: 0.1% !important;
   80%, 90% {
     stroke: var(--yellow);
   }
+}
+
+.load
+{
+  height: 100vh;
+  width: 100%;
+
 }
