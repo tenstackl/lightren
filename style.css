@@ -1224,8 +1224,8 @@ padding-top: 0.1% !important;
  
   width: 60px;
   position: absolute;
-  left: 25%;
-top: 25%;
+  left: 50%;
+top: 50%;
 transform: translateX(-50%) translateY(-50%);
   
 }
